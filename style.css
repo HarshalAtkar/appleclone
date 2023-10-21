@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgb(48, 48, 48);
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline:10px ;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: aliceblue;
+}
