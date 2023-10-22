@@ -2,25 +2,307 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar{
+nav{
     background-color: rgb(48, 48, 48);
     height: 44px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-inline:10px ;
+    padding-inline:50px ;
+    width: 100vw;
 }
-.navbar ul{
+nav ul{
     display: flex;
+
 }
-.navbar li{
+nav li{
     list-style-type: none;
-    text-decoration: none;
+    padding: 10px;
 }
-.navbar a{
+nav a{
     text-decoration: none;
-    margin-right: 15px;
     color: aliceblue;
+
+}
+   
+.products{
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 50px;
+    padding-top: 16px;
+    width: 100vw;
+}
+.productimages img{
+  height:54px
+}
+#new{
+    
+ color: #BF4800;
+ text-align: center;
+ font-family: SF Pro Text;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 16px; /* 133.337% */
+ letter-spacing: -0.12px;
+ }
+
+
+
+.productimages{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+/* hero */
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 113px 73px 0px 73px;
+}
+.new2{
+color: #6E6E73;
+font-family: SF Pro Text;
+font-size: 17px;
+font-weight: 400;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+}
+.iphone14{
+width: 100px;
+height: 21px;
+text-align: center;
+}
+.big{
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+text{
+color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-weight: 400;
+
+}
+.buy-learn{
+    display: flex;
+    align-items: center;
+    
+}
+.buy-learn button{
+    border-radius: 980px;
+    border: none;
+    background: #0071e3;
+padding: 8px 15.6px 8px 16px;
+color: #FFF;
+font-family: SF Pro Text;
+font-size: 17px; 
+margin-right: 50px;  
+text-align: center;
+}
+.buy-learn p{
+color: #0071e3;
+}
+#iphone14{
+width:100vw;
+}
+
+/* hero2 */
+.hero2{
+    display: flex;
+    background-color:  #000;;
+    flex-direction: column;
+    align-items: center;
+    padding: 113px 73px 0px 73px;
+}
+
+.iphone14pro{
+width: 100px;
+height: 21px;
+text-align: center;
+color: #FFF;
+}
+.pro_beyond{
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.text2{
+color: white;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-weight: 400;
+
+}
+.buy-learn2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 42px;
+    
+}
+.buy-learn2 button{
+    border-radius: 980px;
+    border: none;
+    background: #0071e3;
+padding: 8px 15.6px 8px 16px;
+color: #FFF;
+font-family: SF Pro Text;
+font-size: 17px; 
+margin-right: 50px;  
+text-align: center;
+}
+.buy-learn2 p{
+color: #0071e3;
+
+}
+#iphone14pro{
+width:50vw;
+}
+
+/* iphonese */
+.iphonese{
+    display: flex;
+    align-items: center;
+    padding: px 0px;
+}
+
+.se{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+width: 50vw;
+text-align: center;
+color: #020101;
+}
+.lovepower,.loveprice{
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+#iphonese{
+    /* image */
+    width: 50vw;
+}
+ /* tour section */
+.tour{
+background-image: url(./icon/figure6@2x.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 60vw;   
+}
+.tourguide{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    color: white;
+    padding:20vw 0vw 0vw 10vw;
+}
+.tourguide p:nth-child(2),p:nth-child(3){
+    color: #FFF;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+
+}
+.tourguide button{
+border-radius: 980px;
+background: #FFF;
+display: flex;
+width: 142.234px;
+height: 36px;
+padding: 8px 15.6px 8px 16px;
+justify-content: center;
+align-items: center;
+border: none;
+}
+
+/* iphonecompare */
+.compare{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.whichphoneright{
+color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+.compare1{
+width: 190px;
+height: 257px;
+flex-shrink: 0;
+background-image: url(./icon/figure22@2x.png);
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.comparecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comparecontainer button{
+    border-radius: 980px;
+    background: #0071E3;
+    border: none;
+    color: white;
+    display: flex;
+width: 45px;
+height: 24px;
+padding: 5px 11.784px 5px 11.969px;
+justify-content: center;
+align-items: center;
+    
+}
+.learn{
+
+color: #0071e3;
+
+}
+.stroke{
+stroke-width: 1px;
+background-color: #D2D2D7;
+width: 209.5px;
+height: 1px;
+flex-shrink: 0;
+
 }
